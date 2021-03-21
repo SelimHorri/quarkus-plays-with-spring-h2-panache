@@ -26,12 +26,12 @@ public class PersonDaoImpl implements PersonDao {
 	
 	@Override
 	public void update(final Person person) {
-		
+		Person.persist(person);
 	}
 	
 	@Override
 	public void deleteById(final Long personId) {
-		
+		Person.deleteById(personId);
 	}
 	
 	
