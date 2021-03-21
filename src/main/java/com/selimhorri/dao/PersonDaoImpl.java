@@ -1,10 +1,10 @@
-package com.selimhrri.dao;
+package com.selimhorri.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.selimhrri.model.Person;
+import com.selimhorri.model.Person;
 
 @Repository
 public class PersonDaoImpl implements PersonDao {

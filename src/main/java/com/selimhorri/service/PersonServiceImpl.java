@@ -1,4 +1,4 @@
-package com.selimhrri.service;
+package com.selimhorri.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.selimhrri.dao.PersonDao;
-import com.selimhrri.model.Person;
+import com.selimhorri.dao.PersonDao;
+import com.selimhorri.model.Person;
 
 @Service
 @Transactional

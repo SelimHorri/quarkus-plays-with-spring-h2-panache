@@ -1,4 +1,4 @@
-package com.selimhrri.controller;
+package com.selimhorri.controller;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.selimhrri.model.Person;
-import com.selimhrri.service.PersonService;
+import com.selimhorri.model.Person;
+import com.selimhorri.service.PersonService;
 
 @RestController
 @RequestMapping(value = {"/persons"})

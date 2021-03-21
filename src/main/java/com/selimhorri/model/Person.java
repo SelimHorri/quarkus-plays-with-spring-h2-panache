@@ -1,4 +1,4 @@
-package com.selimhrri.model;
+package com.selimhorri.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

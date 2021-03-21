@@ -1,10 +1,10 @@
-package com.selimhrri.dao;
+package com.selimhorri.service;
 
 import java.util.List;
 
-import com.selimhrri.model.Person;
+import com.selimhorri.model.Person;
 
-public interface PersonDao {
+public interface PersonService {
 	
 	List<Person> findAll();
 	Person findById(final Long personId);
@@ -13,7 +13,3 @@ public interface PersonDao {
 	void deleteById(final Long personId);
 	
 }
-
-
-
-
