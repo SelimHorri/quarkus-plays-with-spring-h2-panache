@@ -139,6 +139,9 @@
 						</executions>
 					</plugin>
 				</plugins>
+				
+				<finalName>quarkus-spring-h2-panache</finalName>
+				
 			</build>
 			<properties>
 				<quarkus.package.type>native</quarkus.package.type>
