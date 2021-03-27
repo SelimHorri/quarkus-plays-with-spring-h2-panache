@@ -2,8 +2,6 @@ package com.selimhorri.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Table;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
@@ -12,9 +10,9 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 @Table(name = "persons")
 public class Person extends PanacheEntity {
 	
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "person_id")
-	private Integer personId;
+	// @GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@Column(name = "id")
+	private Long id;
 	
 	@Column(name = "first_name")
 	private String firstName;
@@ -24,6 +22,14 @@ public class Person extends PanacheEntity {
 	
 	public Person() {
 		
+	}
+	
+	public Long getId() {
+		return id;
+	}
+	
+	public void setId(Long id) {
+		this.id = id;
 	}
 	
 	public String getFirstName() {
